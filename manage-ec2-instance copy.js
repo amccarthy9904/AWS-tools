@@ -17,9 +17,4 @@ async function listInstances () {
   }, [])
 }
 
-async function terminateInstance (instanceId) {
-  // TODO: Terminate an instance with a given instanceId
-}
-
 listInstances().then(console.log)
-// terminateInstance().then(console.log)
